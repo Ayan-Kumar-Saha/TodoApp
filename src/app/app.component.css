@@ -1,0 +1,21 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 5em;
+  background-color: #fff;
+  border-radius: 0.5em;
+  -webkit-box-shadow: -3px -3px 23px -10px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: -3px -3px 23px -10px rgba(0, 0, 0, 0.74);
+  box-shadow: -3px -3px 23px -10px rgba(0, 0, 0, 0.74);
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em 1em 2em;
+}
